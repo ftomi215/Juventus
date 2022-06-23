@@ -1,0 +1,341 @@
+
+@import url('nyomtatas.css');
+@import 'https://fonts.googleapis.com/css?family=Oswald';
+
+
+
+body{
+    font-family: Arial, Verdana,Helvetica,Oswald,sans-serif;
+    
+    background-image: url('../images/hatter.png');
+    background-color: black;
+    background-repeat: repeat;
+
+    background-position: 0px 0px;
+}
+
+
+
+p{
+    text-align: justify;
+    font-size: 1.35em;
+}
+
+p.videoszoveg{
+    margin: 15px;
+}
+
+
+
+header, main, footer,.header,.footer,.tartalom{
+    width:70%;
+    min-width: 400px;
+    max-width: 1000px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: white;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+
+header,.header{
+    border-radius: 10px 10px 0 0;
+}
+
+footer,.footer{
+    background-color:lightgrey;
+    border-radius: 0 0 10px 10px;
+    
+}
+
+footer p,.footer p{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+header nav,.header .nav{
+    background-color: #ddd;
+    
+    margin-left: -10px;
+    margin-right: -10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+header nav ul li,.header .nav ul li{
+    display: inline;
+    white-space: nowrap;
+}
+
+header nav a,.header .nav a{
+    text-decoration: none;
+    font-variant: small-caps;
+    margin-right: 1em;
+}
+
+header nav#gyengenlato,.header .nav#gyengenlato{
+    text-align: right;
+}
+
+a#normalbetu,a.normalbetu{
+    display: none;
+}
+
+header nav#oldalmenu,.header .nav#oldalmenu{
+    background-color: grey;
+    font-size: 1.5em;
+}
+
+p a{
+    text-decoration: none;
+    color: blue;
+}
+
+
+p a:hover{
+    text-decoration:underline;
+}
+
+header nav a:link,.header .nav a:link{
+    color: black;
+}
+header nav a:visited,.header .nav a:visited{
+    color:black;
+}
+header nav a:hover,.header .nav a:hover{
+    text-decoration:underline;
+}
+
+
+
+header nav ul,.header .nav ul{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8em;
+}
+
+
+
+img#juventusfelirat,.nav img.juventusfelirat{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.kipozicional a{
+    position: absolute; left: -99999px;
+}
+
+.kipozicional a:focus{
+    position: static; background: white;
+}
+
+img#juventuslogo{
+    float: right;
+    margin-left: 20px; 
+    max-width: 20%;
+}
+
+table{
+    border: 3px double gray;
+    border-collapse: collapse;
+    margin:auto 0;
+    float:left;
+    margin-right: 40px;
+}
+
+table th{
+    font-weight: normal;
+    text-align: left;
+}
+
+table th,td{
+    border: 1px solid lightgrey;
+    padding:5px;
+}
+
+caption{
+    caption-side: bottom;
+    margin-top:10px;
+}
+
+p#masodikbekezdes{
+    text-align: justify;
+}
+
+summary{
+    font-size: 80%;
+}
+
+details p{
+    font-size: 80%;
+}
+
+img#elsojuve{
+    float:right;
+    margin-left: 40px;
+    width:22em;
+}
+
+img#juvebl1996{
+    margin-right: 40px;
+    margin-left: auto;
+    width:22em;
+    float:left;
+}
+
+p#torharmadikbekezdes{
+    
+    text-align: justify;
+}
+
+video{
+    float:right;
+    margin-left:40px;
+    margin-top:22px;
+    height:12em;
+    width:auto;
+}
+
+img#platini{
+    margin-right: 40px;
+    margin-left: auto;
+    float:left;
+    height:14em;
+}
+
+img#trappatoni{
+    float:right;
+    margin-left:40px;
+    width:15em;
+}
+
+a:visited{
+    color:purple;
+}
+
+p a:link{
+    text-decoration: underline;
+}
+
+label#bl,label#gollovo,label#seriea,label#kapus,label#velemeny{
+    display:inline-block;
+    font-size: 5em;
+    margin:5em;
+}
+
+a#aktualis{
+    font-weight: bold;
+}
+
+fieldset p#ezer{
+    font-size: 85%;
+    margin-top:0;
+    margin-bottom: 20px;
+}
+
+p#videoleiras{
+    float:right;
+}
+
+
+
+
+
+
+@media screen and (max-width: 700px) 
+{
+
+
+
+nav#oldalmenu li,div#oldalmenu li {display:block}
+
+article,.article {
+    float: none;
+    margin: 0;
+}
+
+img#platini{
+    float:unset;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+}
+
+form{
+    margin: 0 auto; 
+    width:80%;
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    img#trappatoni{
+        float:unset;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+
+}
+
+
+@media screen and (max-width: 1000px){
+
+table{
+    width:90%; 
+    margin-left:5%; 
+    margin-right:5%;
+}
+
+img#elsojuve{
+    float:unset;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:22em;
+}
+
+img#juvebl1996{
+    float:unset;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+video{
+    float:unset;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+
+
+}
+

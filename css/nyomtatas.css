@@ -1,0 +1,38 @@
+
+
+@media print{
+    body {
+        font-family:'Times New Roman', Times, serif;  
+        margin:3cm;
+    }
+        
+    main, footer,.tartalom {
+        width:100%;		
+        padding:0;	
+    }
+        
+    header,nav,.nav,#header,.header {
+        display:none
+    }	
+        
+    a:after { content: " (" attr(href) ")";}  
+        
+    article#valtozatai,.article#valtozatai {page-break-before:always}  
+    
+     table{
+        width:70%; 
+        margin-left:15%;
+        margin-right:15%;
+     }
+    
+    img#elsojuve,img#juvebl1996{
+        float:unset;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    video,img#juventusfelirat,img.juventusfelirat{
+        display:none;
+    }
+    }

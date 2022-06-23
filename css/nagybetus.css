@@ -1,0 +1,54 @@
+
+@import url('alapstilus.css');
+
+body {
+	font-size:2em;
+	
+}
+
+
+a#normalbetu,.normalbetu{
+    display: block;
+}
+
+a#nagybetu,.nagybetu{
+    display: none;
+}
+
+
+header, main, footer ,.header,.footer,.tartalom{
+	width:90%;
+	max-width:1200px;
+}
+
+table{
+	width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+}
+
+img#elsojuve,img#juvebl1996,video{
+	float:unset;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+	
+
+@media screen and (max-width: 1000px) {
+    img#platini{
+        float:unset;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    img#trappatoni{
+        float:unset;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
